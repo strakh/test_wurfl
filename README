@@ -1,0 +1,7 @@
+dead symlinks should lead to:
+django-wurfl: git://github.com/clement/django-wurfl.git
+jqtouch: svn checkout http://jqtouch.googlecode.com/svn/trunk/ jqtouch
+
+don't forget to do:  
+  python manage.py wurfl-load wurfl.xml
+after syncdb
